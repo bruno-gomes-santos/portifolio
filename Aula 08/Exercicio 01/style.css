@@ -1,0 +1,76 @@
+body{
+    background-color: #052C65;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+a{
+    text-decoration: none;
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+}
+section[class = cursos]{
+    margin: 100px;
+    height: 50px;
+    padding: auto;
+}
+
+div[class = design]{
+    float: left;
+    background-color: white; 
+    color: #052C65;
+    border-radius: 5px;   
+    width: 500px;
+    height: 450px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+}
+div[class = informatica]{
+    float: left;
+    background-color: white; 
+    color: #052C65;
+    border-radius: 5px;   
+    width: 500px;
+    height: 450px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-size: 14px;
+}
+div[class = gestao]{
+    float: left;
+    background-color: white; 
+    color: #052C65;
+    border-radius: 5px;   
+    width: 500px;
+    height: 450px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+}
+div[class = seguranca]{
+    float: left;
+    background-color: white; 
+    color: #052C65;
+    border-radius: 5px;   
+    width: 500px;
+    height: 450px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-size: 13px;
+}
+
+table{
+    border-color: white;
+    font-size: 14px;
+}
+td{
+    text-align: center;
+}
+
+
