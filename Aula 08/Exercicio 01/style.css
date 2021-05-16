@@ -1,7 +1,10 @@
 body{
     background-color: #052C65;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+    width: auto;
     }
+
 a{
     text-decoration: none;
     align-items: center;
@@ -9,13 +12,18 @@ a{
 
 footer{
     text-align: center;
+    font-size: 12px;
+    margin: 50px;
+    width: auto;
 }
 section[class = cursos]{
     margin: 100px;
     height: 50px;
     padding: auto;
 }
-
+div{
+    align-items: center;
+}
 div[class = design]{
     float: left;
     background-color: white; 
@@ -24,8 +32,8 @@ div[class = design]{
     width: 500px;
     height: 450px;
     text-align: center;
-    padding: 5px;
-    margin: 5px;
+    padding: 10px;
+    margin: 10px;
     font-size: 15px;
 }
 div[class = informatica]{
@@ -36,8 +44,8 @@ div[class = informatica]{
     width: 500px;
     height: 450px;
     text-align: center;
-    padding: 5px;
-    margin: 5px;
+    padding: 10px;
+    margin: 10px;
     font-size: 14px;
 }
 div[class = gestao]{
@@ -48,8 +56,8 @@ div[class = gestao]{
     width: 500px;
     height: 450px;
     text-align: center;
-    padding: 5px;
-    margin: 5px;
+    padding: 10px;
+    margin: 10px;
     font-size: 15px;
 }
 div[class = seguranca]{
@@ -60,8 +68,8 @@ div[class = seguranca]{
     width: 500px;
     height: 450px;
     text-align: center;
-    padding: 5px;
-    margin: 5px;
+    padding: 10px;
+    margin: 10px;
     font-size: 13px;
 }
 
