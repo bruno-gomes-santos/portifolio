@@ -2,7 +2,6 @@ body{
     background-color: #052C65;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 20px;
-    width: auto;
     }
 
 a{
@@ -10,20 +9,16 @@ a{
     align-items: center;
 }
 
-footer{
-    text-align: center;
-    font-size: 12px;
-    margin: 50px;
-    width: auto;
-}
 section[class = cursos]{
-    margin: 100px;
-    height: 50px;
+    margin: auto;
+    height: auto;
     padding: auto;
-}
-div{
     align-items: center;
 }
+div[class = valores]{
+    margin: 20px;
+}
+
 div[class = design]{
     float: left;
     background-color: white; 
@@ -33,7 +28,7 @@ div[class = design]{
     height: 450px;
     text-align: center;
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
     font-size: 15px;
 }
 div[class = informatica]{
@@ -45,7 +40,7 @@ div[class = informatica]{
     height: 450px;
     text-align: center;
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
     font-size: 14px;
 }
 div[class = gestao]{
@@ -57,7 +52,7 @@ div[class = gestao]{
     height: 450px;
     text-align: center;
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
     font-size: 15px;
 }
 div[class = seguranca]{
@@ -69,8 +64,12 @@ div[class = seguranca]{
     height: 450px;
     text-align: center;
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
     font-size: 13px;
+}
+
+div[class = conteudo]{
+    margin: 20px;
 }
 
 table{
@@ -79,6 +78,11 @@ table{
 }
 td{
     text-align: center;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+
 }
 
 

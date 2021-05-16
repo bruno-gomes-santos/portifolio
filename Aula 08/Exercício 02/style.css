@@ -1,0 +1,32 @@
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    padding: 100px;
+    font-family: verdana;
+}
+
+div[class="container"]{
+    width: 960px;
+    background-color: black;
+    border-radius: 5rem;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+
+div[class = "rio"]{
+    text-align: left;
+    border-radius: 1rem;
+    border-color: gray;
+    padding: 8px;
+    width: 250px;
+    margin: 20px;
+}
+
+figcaption{
+    text-align: center;
+
+}
