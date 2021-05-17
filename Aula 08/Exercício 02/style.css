@@ -1,32 +1,48 @@
 body{
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 25px;
-    padding: 100px;
+    width: 100%;
+    margin: 0 auto;
     font-family: verdana;
 }
 
-div[class="container"]{
+main{
     width: 960px;
+    margin: 6rem auto;
+}
+
+header{
     background-color: black;
-    border-radius: 5rem;
     color: white;
+    border-radius: 5rem;
+    font-size: 20px;
     text-align: center;
-    height: 50px;
+    padding: 1rem;
 }
 
-div[class = "rio"]{
-    text-align: left;
-    border-radius: 1rem;
-    border-color: gray;
-    padding: 8px;
-    width: 250px;
-    margin: 20px;
+div{
+    border: 1px solid;
+    width: 25rem;
+    border-radius: 2rem;
+    margin: 0.5rem;
+    padding: 1rem;
 }
 
-figcaption{
+div > figure{
     text-align: center;
+    align-items: center;
+}
+
+figure{
+    text-align: center;
+    border-bottom: 2px solid;
+}
+
+img{
+    width: 12rem;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
 
 }

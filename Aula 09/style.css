@@ -1,9 +1,78 @@
-body{
-    background-color: #2A49F9;
-    display: flex;
+*{
+    font-family: verdana;
 }
 
-header{
+body{
+    background-color: #052C65;
     text-align: center;
-    
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+section{
+    color: white;
+
+}
+header{
+    background-color: white;
+    color: #052C65;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+
+img{
+    width: 70%;
+}
+
+h1{
+    padding: 0.3rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    font-size: 12px;
+}
+
+@media (max-device-width: 480px){
+    header{
+        font-size: 15px;
+        border-radius: 8px;
+    }
+    article{
+        font-size: 12px;
+        margin-top: 50px;
+    }
+    img{
+        width: 100%;
+        margin-top: 50px;
+    }
+    a{
+        margin-top: 50px;
+    }        
+    footer{
+        margin-top: 9rem;
+    }
+}
+
+@media (max-device-width: 768px){
+    header{
+        font-size: 20px;
+        border-radius: 8px;
+    }
+    article{
+        font-size: 16px;
+        margin-top: 50px;
+    }
+    img{
+        width: 100%;
+        margin-top: 50px;
+    }
+    a{
+        margin-top: 50px;
+    }        
+
 }

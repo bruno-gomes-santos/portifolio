@@ -1,88 +1,64 @@
+*{
+    font-family: verdana;
+}
+
+main{
+    width: 100%;
+    margin: 0 auto;
+}
+
+ul > a{
+    text-decoration: none;
+    color: white;
+}
+
 body{
     background-color: #052C65;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-left: 20px;
-    }
-
-a{
-    text-decoration: none;
-    align-items: center;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin: 0 auto;
 }
 
-section[class = cursos]{
-    margin: auto;
-    height: auto;
-    padding: auto;
-    align-items: center;
-}
-div[class = valores]{
-    margin: 20px;
+section{
+    padding: 0 5rem;
 }
 
-div[class = design]{
-    float: left;
-    background-color: white; 
-    color: #052C65;
-    border-radius: 5px;   
-    width: 500px;
-    height: 450px;
-    text-align: center;
-    padding: 10px;
-    margin: 20px;
-    font-size: 15px;
-}
-div[class = informatica]{
-    float: left;
-    background-color: white; 
-    color: #052C65;
-    border-radius: 5px;   
-    width: 500px;
-    height: 450px;
-    text-align: center;
-    padding: 10px;
-    margin: 20px;
-    font-size: 14px;
-}
-div[class = gestao]{
-    float: left;
-    background-color: white; 
-    color: #052C65;
-    border-radius: 5px;   
-    width: 500px;
-    height: 450px;
-    text-align: center;
-    padding: 10px;
-    margin: 20px;
-    font-size: 15px;
-}
-div[class = seguranca]{
-    float: left;
-    background-color: white; 
-    color: #052C65;
-    border-radius: 5px;   
-    width: 500px;
-    height: 450px;
-    text-align: center;
-    padding: 10px;
-    margin: 20px;
-    font-size: 13px;
+img{
+    width: 100%;
 }
 
-div[class = conteudo]{
-    margin: 20px;
+.conteudo{
+    background-color: white;
+    color: #052C65;
+    display: flex row;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 10px 0;
+}
+
+h1{
+    background-color: #052C65;
+    color: white;
+    border-radius: 1rem;
 }
 
 table{
-    border-color: white;
-    font-size: 14px;
+    margin: auto;
+    border: white;
+    padding: 1rem;
 }
-td{
-    text-align: center;
+
+tr > th{
+    padding: 1rem;
 }
+
+thead > tr > th{
+    background-color: white;
+    color: #052C65;
+}
+
 footer{
-    text-align: center;
     font-size: 12px;
-
 }
-
 

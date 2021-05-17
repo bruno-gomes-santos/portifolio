@@ -1,0 +1,100 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: #A097B0;
+}
+
+body{
+    background-color: rgb(22, 22, 22);
+    margin: 6rem auto;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+
+}
+
+button{
+    width: 40rem;
+    height: 3rem;
+    border: none;
+    margin: 0.5rem 0;
+    border-radius: 3px;
+    background-color: #A097B0;
+    color:whitesmoke;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info{
+    text-align: center;
+}
+
+.pages{
+    text-align: center;
+}
+
+.pages > h1{
+    background-color: rgb(228, 228, 228);
+    border-radius: 2px;
+    padding: 0.3rem;
+    font-size: 35px;
+    color: #625d6d;
+}
+
+button:hover {
+    background-color: #746e81;
+}
+
+@media (max-width: 800px) {
+    
+    body{
+        margin: 0 0 0 0;
+    }
+    
+    main{
+      flex-direction: column;
+      
+    }
+
+    button{
+        width: 20rem;
+        height: 2rem;
+        
+    }
+
+    .pages > h1{
+        font-size: 20px;
+    }
+
+
+}
+
+@media (max-width: 1200px) {
+
+    body {
+        padding: 4rem;
+    }
+
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;;
+      
+    }
+
+    button{
+        width: 20rem;
+        height: 2rem;
+        
+    }
+
+    .pages > h1{
+        font-size: 20px;
+    }
+
+}
