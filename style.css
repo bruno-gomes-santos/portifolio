@@ -17,6 +17,10 @@ main{
 
 }
 
+section{
+    list-style:none
+}
+
 button{
     width: 40rem;
     height: 3rem;
