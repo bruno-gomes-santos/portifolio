@@ -108,6 +108,19 @@ article{
 
     }
 
+    header{
+        align-items: center;
+        font-size: 5px;
+    }
+
+    .pages > h1{
+        font-size: 20px;
+    }
+
+    button{
+        font-size: 15px;
+    }
+
     .info{
         text-align: center;
         margin: 0 0 0 0 ;
