@@ -1,31 +1,46 @@
 * {
     font-family: 'Montserrat', sans-serif;
-    color: #A097B0;
 }
 
 body{
     background-color: rgb(22, 22, 22);
-    margin: 6rem auto;
+    margin: 0 auto;
     width: 100%;
+}
+
+.principal {
+    margin: 2rem 5rem;
+}
+
+header{
+    background-color: #A097B0;
+    color: #050505;
+    padding: 0.3rem;
+    border-radius: 3px;
+}
+
+header > p{
+    text-align: center;
+    font-size: 15px;
 }
 
 main{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 15rem;
+    justify-content: space-between;
+    /* gap: 15rem; */
 
 }
 
-section{
+.aulas{
     list-style:none
 }
 
 button{
-    width: 40rem;
+    width: 90vh;
     height: 3rem;
     border: none;
-    margin: 0.5rem 0;
+    margin: 0.5rem;
     border-radius: 3px;
     background-color: #A097B0;
     color:whitesmoke;
@@ -35,6 +50,7 @@ button{
 
 .info{
     text-align: center;
+    margin: 0 10rem 0 0 ;
 }
 
 .pages{
@@ -53,52 +69,51 @@ button:hover {
     background-color: #746e81;
 }
 
-@media (max-width: 800px) {
-    
-    body{
-        margin: 0 0 0 0;
-    }
-    
-    main{
-      flex-direction: column;
-      
-    }
-
-    button{
-        width: 20rem;
-        height: 2rem;
-        
-    }
-
-    .pages > h1{
-        font-size: 20px;
-    }
-
-
+article{
+    color: #A097B0;
 }
 
-@media (max-width: 1200px) {
-
-    body {
-        padding: 4rem;
+@media (max-width: 1500px){
+    
+    .info{
+        text-align: center;
+        margin: 0 5rem 0 0 ;
     }
+}
+
+@media (max-width: 1400px){
+
+    .info{
+      margin: 0;
+    }
+}    
+
+@media (max-width: 1200px) {
+    
+    .pages > h1{
+        font-size: 30px;
+    }
+    
+}
+
+@media (max-width: 1100px){
+    
+    main{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 800px) {
 
     main{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 5rem;;
-      
+      flex-direction: column;
+
     }
 
-    button{
-        width: 20rem;
-        height: 2rem;
+    .info{
+        text-align: center;
+        margin: 0 0 0 0 ;
         
-    }
-
-    .pages > h1{
-        font-size: 20px;
     }
 
 }
