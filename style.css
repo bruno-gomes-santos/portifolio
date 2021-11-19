@@ -103,15 +103,17 @@ article{
 
 @media (max-width: 800px) {
 
+    header{
+        align-items: center;
+        font-size: 5px;
+        margin: auto;
+    }
+
     main{
       flex-direction: column;
 
     }
 
-    header{
-        align-items: center;
-        font-size: 5px;
-    }
 
     .pages > h1{
         font-size: 20px;
